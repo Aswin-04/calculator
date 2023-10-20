@@ -3,6 +3,7 @@ body {
   padding: 0;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, black, white);
@@ -47,12 +48,17 @@ body {
     font-weight: 600;
 }
 
-.calc-buttons {
-  height: 400px;
-  width: 360px;
+.row {
   display: flex;
-  flex-direction: column;
   gap: 10px;
+}
+
+.calc-buttons {
+    height: 400px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -78,13 +84,27 @@ button.equal-button {
 }
 
 
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    gap: 0.5em;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), white);
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.1), inset -15px -15px 20px rgba(0, 0, 0, 0.1);
+    font-size: 1.5em;
+}
 
+img {
+    width: 30px;
+    height: 30px;
+}
 
-.row1,
-.row2,
-.row3,
-.row4,
-.row5 {
-  display: flex;
-  gap: 10px;
+a {
+    text-decoration:  none;
+    color: inherit;
 }
