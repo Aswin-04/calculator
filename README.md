@@ -6,7 +6,7 @@ This project is part of The Odin Project's Foundation Course, designed to streng
 
 ## Project Overview
 
-The Calculator is a basic web application that allows users to perform simple arithmetic operations, such as addition, subtraction, multiplication, and division. It serves as a practical exercise to reinforce your understanding of JavaScript, particularly in handling user input and performing calculations.
+The Calculator is a basic web application that allows users to perform simple arithmetic operations, such as addition, subtraction, multiplication, and division. It serves as a practical exercise to reinforce my understanding of JavaScript, particularly in handling user input and performing calculations.
 
 ## Features
 
